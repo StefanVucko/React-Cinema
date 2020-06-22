@@ -1,0 +1,44 @@
+body {
+  background-image: url('./assets/cinema2.jpg');
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.myTitle {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.oneMovie {
+  margin: 2px;
+  width: 25%;
+}
+
+.dialogBody{
+  max-height: 400px;
+  padding: 80px;
+}
+.closeDialog {
+  margin: 20px;
+}
+.movieOverview {
+  width: 80%;
+  font-size: 1.3rem;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.aboutMovie {
+  flex-direction: column;
+  text-align: justify;
+}
+.movieTitle {
+  font-size: 2.3rem;
+}
+img {
+  max-height: 23rem;
+}
